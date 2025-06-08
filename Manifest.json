@@ -1,0 +1,21 @@
+{
+  "name": "Bookbabe: Unlock Your Voice",
+  "short_name": "Bookbabe",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#5D3FD3",
+  "description": "An accessible voice-based education app for learners in Malawi.",
+  "icons": [
+    {
+      "src": "icons/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
