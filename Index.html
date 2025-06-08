@@ -1,0 +1,32 @@
+<!-- index.html --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Bookbabe: Unlock Your Voice</title>
+</head>
+<body>
+  <div id="loading-screen">
+    <div id="loading-circle">
+      <img src="assets/bookbabe-logo.png" alt="Bookbabe Logo" />
+    </div>
+  </div>
+  <div id="app" class="hidden">
+    <header>
+      <img src="assets/icon-book.png" id="menu-icon" alt="Menu" />
+      <img src="assets/settings-gear.png" id="settings-icon" alt="Settings" />
+    </header>
+    <main>
+      <div id="transcript"></div>
+      <button id="record-btn"></button>
+      <div id="controls">
+        <button id="save-btn">Save Transcript</button>
+        <button id="modes-btn">Modes</button>
+        <button id="read-btn">Read Aloud</button>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
